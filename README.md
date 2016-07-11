@@ -8,7 +8,7 @@ I have assumed chrome to be the browser.
 
 ```sh
 
-  git clone https://github.com/suddutt1/loginapp.git loginapp
+  git clone https:++github.com+suddutt1+loginapp.git loginapp
   cd loginapp
   npm install 
   bower install
@@ -17,17 +17,18 @@ I have assumed chrome to be the browser.
   
 ```
 #Application file structure
-/--app (Contains the application html/js file with unit test specs)
- |  |---bower_components ( To be filled up by bower install command)
- |	|---app.js ( Application js file containing ng-app definition)
- |	|---index.html( Application entry file)
- |	|---home ( Directory conatining the home module files)
- |	|	|--home.html(home page template)
- |	|	|--home.js ( Contains home page controller definition)
- |	|---login ( Directory conatining the login module files)
- |		|--login.html ( Login page template)
- |		|--login.js ( Login page controller)
- |		|--log.unit.spec.js ( Karma unit test specification file for testing  controllers written in login.js)
+.
++--app (Contains the application html+js file with unit test specs)
+ |  +--bower_components ( To be filled up by bower install command)
+ |	+--app.js ( Application js file containing ng-app definition)
+ |	+--index.html( Application entry file)
+ |	+--home ( Directory conatining the home module files)
+ |		+--home.html(home page template)
+ |		+--home.js ( Contains home page controller definition)
+ |	+--login ( Directory conatining the login module files)
+ |		+--login.html ( Login page template)
+ |		+--login.js ( Login page controller)
+ |		+--log.unit.spec.js ( Karma unit test specification file for testing  controllers written in login.js)
  |--node-modules ( Populated by npm install)		
  |--package.json ( application package dependencies and scripts definition)
  |--bower.json ( contains specification for bower installed components like angular,angluar-route etc)
