@@ -8,7 +8,7 @@ I have assumed chrome to be the browser.
 
 ```sh
 
-  git clone https:++github.com+suddutt1+loginapp.git loginapp
+  git clone https://github.com+suddutt1+loginapp.git loginapp
   cd loginapp
   npm install 
   bower install
