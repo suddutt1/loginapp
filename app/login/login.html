@@ -1,0 +1,17 @@
+<div ng-controller="loginController">
+<h1 id="pageHeading">Trivial Angular App Login page</h1>
+<h2 id="pageMessge" >{{message}}</h2>
+<div>
+	<label for="uid"> User id</label>
+	<input type="text" name="uid" id="uid" ng-model="uid"/>
+</div>
+<br/>
+<div>
+	<label for="pwd">Password</label>
+	<input type="password" name="pwd" id="pwd" ng-model="pwd"/>
+</div>
+<div>
+	<button id="btnLogin" ng-click="login()">Login</button>
+</div>
+
+</div>

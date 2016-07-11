@@ -1,0 +1,14 @@
+{
+  "name": "loginapp",
+  "description": "A Trivial AngularJS with protractor",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-resource": "1.5.x",
+    "angular-route": "1.5.x"
+  }
+}

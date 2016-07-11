@@ -1,0 +1,25 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "Angular APP with e2e test",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+    "update-webdriver": "webdriver-manager update",
+    "e2e": "protractor e2etest/protractor.conf.js"
+  },
+  "author": "Sudip Dutta",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0",
+    "jasmine-console-reporter": "^1.2.6",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-spec-reporter": "0.0.26",
+    "protractor": "^3.2.2"
+  }
+}
