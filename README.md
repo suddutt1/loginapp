@@ -21,8 +21,9 @@ I have assumed chrome to be the browser.
 
 ```sh
   npm run start
-  goto http://localhost:8000/index.html
-```
+```  
+  Open chrome and goto http://localhost:8000/index.html
+
 # To run the unit tests
   
 ```sh
