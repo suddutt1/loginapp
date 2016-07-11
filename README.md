@@ -17,7 +17,7 @@ I have assumed chrome to be the browser.
   
 ```
 #Application file structure
-.
+```
 +--app (Contains the application html+js file with unit test specs)
  |  +--bower_components ( To be filled up by bower install command)
  |	+--app.js ( Application js file containing ng-app definition)
@@ -33,7 +33,7 @@ I have assumed chrome to be the browser.
  |--package.json ( application package dependencies and scripts definition)
  |--bower.json ( contains specification for bower installed components like angular,angluar-route etc)
  |--.bowerrc (Defines the location of bower component installation i.e. as a subdirectory under app directory. If not mentioned then bower install command will install it from the location from where it was executed. 
- 
+``` 
  
 #Application dependency 
 #Bower
