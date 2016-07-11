@@ -1,11 +1,15 @@
 'use strict';
 
 describe('Testing of loginController', function() {
-  beforeEach(module('trivialapp.login'));
-  var $controller;
+  var $location,$controller;
 
-  beforeEach(inject(function(_$controller_){
+  
+  beforeEach(module('trivialapp.login'));
+  
+  
+  beforeEach(inject(function(_$controller_,_$location_){
     $controller = _$controller_;
+	$location = _$location_;
   }));
   
   it('Should set correct error message on invalid login', function() {
@@ -24,6 +28,7 @@ describe('Testing of loginController', function() {
     var $scope = { uid:'Sudip',pwd:'zaqwsx'};
     var ctrl = $controller('loginController', { $scope: $scope });
 	$scope.login();
+	expect($location.path()).toEqual('/home/'+$scope.uid);
   });
 
 });
