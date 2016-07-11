@@ -27,12 +27,16 @@ I have assumed chrome to be the browser.
   
 ```sh
   
-  #npm run test
+  npm run test
   
 ```
-  #To run e2e test
+#To run e2e test
   
 ```sh
+  npm run start
+```
+Open another terminal. Navigate to the loginapp directory. Run the following command
+```sh  
   npm run e2e
 ```
 
