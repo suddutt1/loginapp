@@ -10,6 +10,9 @@
     "e2e": "protractor e2etest/protractor.conf.js",
 	"e2e-slbs": "protractor e2etest/protractor-bat-sls.conf.js"
   },
+  "engines": {
+    "node": "4.2.4"
+  },
   "author": "Sudip Dutta",
   "license": "ISC",
   "devDependencies": {
