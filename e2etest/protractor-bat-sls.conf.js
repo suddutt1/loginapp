@@ -9,11 +9,11 @@ exports.config = {
   multiCapabilities:[
   {
     'browserName': 'chrome',
-	'name' : ' BAT Login Test -Chrome'
+	'name' : 'BAT Login Test -Chrome'
   },
   {
     'browserName': 'firefox',
-	'name' : ' BAT Login Test Firefox'
+	'name' : 'BAT Login Test Firefox'
   }
   ],
   sauceUser: 'rubdutt1',
