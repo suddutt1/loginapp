@@ -1,5 +1,5 @@
 //logintest-spec.js
-'use strict';
+
 
 
 describe('BAT Application ',function(){
