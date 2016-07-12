@@ -1,8 +1,9 @@
 //logintest-spec.js
 'use strict';
 
-var _BASE_URL ='http://batobacco.mybluemix.net/';
+
 describe('BAT Application ',function(){
+	var _BASE_URL ='http://batobacco.mybluemix.net/';
 	it('On load application should be at# login page',function(){
 		browser.get('#/login');
 		//expect(browser.getTitle()).toEqual('Trivial Angular App');
@@ -30,6 +31,7 @@ describe('Login page should have the appropriate controls',function(){
 });
 
 describe('Login button should work as expected',function(){
+	var _BASE_URL ='http://batobacco.mybluemix.net/';
 	var loginBtn = element(by.id('loginBtn'));
 	var uidBox = element(by.id('userId'));
 	var pwdBox = element(by.id('pwd'));
